@@ -1,0 +1,65 @@
+.home{
+	height: 100vh;
+	background-image: url('../img/imagemprincipal.jpg');
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.home_infos{
+	background-color: white;
+	padding: 30px;
+	border-radius: 20px;
+	color: #1b1833;
+	font-family: 'Pacifico', cursive;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 20px;
+}
+.infos_texto{
+	font-size: 24px;
+}
+
+.infos_titulo{
+	font-family: 'Rubik Bubbles', cursive;
+	font-size: 36px;
+}
+
+.infos_botao{
+	text-decoration: none;
+	color: white;
+	background-color: #1b1833;
+	padding: 10px 20px;
+	display: inline-block;
+	font-size: 28px;
+	border-radius: 20px;
+}
+@media(max-width: 600px){
+	.infos_texto{
+		font-size: 20px
+	}
+	.infos_titulo{
+		font-size: 28px
+	}
+	.infos_botao{
+		font-size: 22px
+		padding: 7px 14px;
+	}
+}
+
+@media(max-width: 480px){
+	.infos_texto{
+		font-size: 16px
+	}
+	.infos_titulo{
+		font-size: 20px
+	}
+	.infos_botao{
+		font-size: 18px
+		padding: 7px 14px;
+	}
+}
